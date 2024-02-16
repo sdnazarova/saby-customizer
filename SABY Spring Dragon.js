@@ -46,98 +46,9 @@
       background-position-x: calc(100% - 6px) !important;
       background-size: 250px;
     }
-    .dragon-and-sleigh{
-      position: fixed;
-      background: url(/tensor/new_year/spring_themes/transpontDragon.png);
-      width: 300px;
-      height: 211px;
-	  background-repeat: no-repeat;
-      right: -300px;
-	  bottom: 0;
-	  background-size: 100%;
-	  z-index: 10;
-	  cursor: pointer;
-      transform: scale(-1, 1);
-
-transition-duration: 0.5s, 1.5s;
-      transition-property: transform, right;
-      transition-timing-function: linear;
-      -webkit-transition-duration: 0.5s, 1.5s;
-      -webkit-transition-property: transform, right;
-      -webkit-transition-timing-function: linear;
-}
   `
 
   document.head.append(style);
-
-  function cookieParser(nameCookie){
-    let c = document.cookie;
-    c = c.split(';')
-    let result;
-    for (let index = 0; index < c.length; index++) {
-        const element = c[index];
-        // console.log(element);
-        if (element.indexOf(nameCookie)>=0){
-            console.log(element);
-            result = element.split('=')[1]
-        }
-    }
-    return result;
-}
-function get_dragon_sleigh(){
-    if (document.querySelector('#page')) {
-        if (document.querySelector('.dragon-and-sleigh')) {
-			if (document.querySelector('.dragon-and-sleigh').style.right==""){
-				setTimeout(() => {
-             		document.querySelector('.dragon-and-sleigh').style.right="50px"
-            	}, 700)
-
-
-				document.querySelector('.dragon-and-sleigh').style.transform=""
-				setTimeout(() => {
-             		get_dragon_sleigh();
-            	}, 5000) // задержка пока его видно
-			} else {
-				setTimeout(() => {
-					document.querySelector('.dragon-and-sleigh').style.right=""
-
-				}, 700)
-				document.querySelector('.dragon-and-sleigh').style.transform="scale(1, 1)"
-				setTimeout(() => {
-              		get_dragon_sleigh();
-            	}, 1800000) //задержка пока его не видно
-			}
-
-
-        }
-    }
-}
-  if (location.host=="new-edu.sbis.ru" && document.querySelector('div#page-wrapper')) {
-     let sleigh = document.createElement('div');
-     sleigh.className = 'dragon-and-sleigh';
-     document.querySelector('div#page-wrapper').insertAdjacentElement('afterbegin', sleigh);
-
-     if (document.cookie.indexOf('drsl')<0) {
-        document.cookie = 'drsl='+new Date().getTime()+';path=/;Domain=new-edu.sbis.ru;';
-        get_dragon_sleigh()
-    } else {
-        let timeout = (+cookieParser('drsl') + 1800000) - new Date().getTime()
-        if (timeout<0) timeout = 1800000
-        setTimeout(() => {
-			document.cookie = 'drsl='+new Date().getTime()+';path=/;Domain=new-edu.sbis.ru;';
-        }, timeout);
-
-    }
-     /*if (document.querySelector('#page')) {
-        if (document.querySelector('.dragon-and-sleigh')) {
-			if (document.querySelector('.dragon-and-sleigh').style.right==""){
-
-            }
-        }
-     }*/
-  }
-      //document.querySelector('div#page-wrapper').insertAdjacentElement('afterbegin', sleigh) dragon_sleigh();
-
 })(
   // @ts-ignore
   unsafeWindow
