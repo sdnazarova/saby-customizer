@@ -7,10 +7,10 @@
 
 #### Весенняя тема
 
-1.  Елочка под меню. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon.user.js)
+1.  Дракончик в меню. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon.user.js)
 
-![](src-img/christmas-tree-big.png)
+![](src-img//Dragon_Menu.png)
 
-2.  Елочки вместо стрелок `>` в меню. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon-Moovied.user.js)
+2.  Выезжающий дракон. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon-Moovied.user.js)
 
-![](src-img/tree-16.png)
+![](src-img/Dragon_Moovied.png)
