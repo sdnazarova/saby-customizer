@@ -49,9 +49,9 @@
             document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
             get_dragon_sleigh()
         } else {
-            let timeout = (+cookieParser('drsl') + 1800000) - new Date().getTime()
+            let timeout = (+cookieParser('drsl') + 3600000) - new Date().getTime()
             console.log(timeout)
-            if (timeout < 0) timeout = 1800000
+            if (timeout < 0) timeout = 3600000
             setTimeout(() => {
                 document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
                 get_dragon_sleigh()
@@ -77,7 +77,7 @@
                 document.querySelector('.dragon-and-sleigh').style.transform = "scale(1, 1)"
                 setTimeout(() => {
                     get_dragon_sleigh();
-                }, 1800000) //задержка пока его не видно
+                }, 3600000) //задержка пока его не видно
             }
 
 
