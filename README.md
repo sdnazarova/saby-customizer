@@ -11,6 +11,6 @@
 
 ![](src-img/christmas-tree-big.png)
 
-2.  Елочки вместо стрелок `>` в меню. _[установить](https://github.com/sdnazarova/saby-customizer/row/main/SABY-Spring-Dragon-Moovied.user.js)_
+2.  Елочки вместо стрелок `>` в меню. _[установить](https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon-Moovied.user.js)_
 
 ![](src-img/tree-16.png)
