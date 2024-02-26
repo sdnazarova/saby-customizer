@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY Spring Dragon
+// @name          SABY Spring Dragon Moovied
 // @namespace     saby-customizer
 // @version       1.0.0
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
