@@ -7,7 +7,7 @@
 
 #### Весенняя тема
 
-1.  Елочка под меню. _[установить](https://github.com/sdnazarova/saby-customizer/row/main/SABY-Spring-Dragon.user.js)
+1.  Елочка под меню. _[установить] (https://github.com/sdnazarova/saby-customizer/raw/main/SABY-Spring-Dragon.user.js)
 
 ![](src-img/christmas-tree-big.png)
 
