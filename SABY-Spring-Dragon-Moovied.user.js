@@ -22,12 +22,12 @@
         position: fixed;
         background: url(https://new-edu.sbis.ru/tensor/new_year/spring_themes/transpontDragon.png);
         width: 300px;
-        height: 211px;
+        height: 288px;
         background-repeat: no-repeat;
         right: -300px;
         bottom: 0;
         background-size: 100%;
-        z-index: 10;
+        z-index: 10000000;
         cursor: pointer;
         transform: scale(-1, 1);
 
