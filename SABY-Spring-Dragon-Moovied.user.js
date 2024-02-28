@@ -50,7 +50,6 @@
             get_dragon_sleigh()
         } else {
             let timeout = (+cookieParser('drsl') + 3600000) - new Date().getTime()
-            console.log(timeout)
             if (timeout < 0) timeout = 3600000
             setTimeout(() => {
                 document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
@@ -91,7 +90,6 @@
             const element = c[index];
             if (element.indexOf(nameCookie) >= 0) {
                 result = element.split('=')[1]
-                console.log(result)
             }
         }
         return result;
