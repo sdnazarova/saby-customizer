@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name          SABY Spring Dragon
 // @namespace     saby-customizer
-// @version       1.0.0
+// @version       1.0.1
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
+// @include       https://*.saby.ru/*
+// @include       https://*.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
