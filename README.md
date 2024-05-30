@@ -19,13 +19,12 @@
 
 1. Дракончик плавающий. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Swimming.user.js)
 
-![](spring_2024/src-img//Dragon_Swimming.png)
+![](spring_2024/src-img/Dragon_Swimming.png)
 
 2. Дракончик садовник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Carrot.user.js)
 
-![](spring_2024/src-img//Dragon_Carrot.png)
+![](spring_2024/src-img/Dragon_Carrot.png)
 
 3. Дракончик в волнах на учебный портал. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Moovied-Waves.user.js)
 
-![](spring_2024/src-img//Dragon_Moovied_Waves.png)
-saby-customizer\summer_2024\SABY-Summer-Dragon-Swimming.user.js
+![](spring_2024/src-img/Dragon_Moovied_Waves.png)
