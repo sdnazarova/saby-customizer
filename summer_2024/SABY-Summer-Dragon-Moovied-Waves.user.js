@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name          SABY Summer Dragon Moovied Waves
 // @namespace     saby-customizer
-// @version       1.0.0
+// @version       1.0.2
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://new-edu.sbis.ru/*
+// @include       https://fix-new-edu.sbis.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -204,6 +205,68 @@
             'dragon-and-swim-40',
             'dragon-and-swim-41'
         ];
+        function preloadImages(array) {
+            if (!preloadImages.list) {
+                preloadImages.list = [];
+            }
+            var list = preloadImages.list;
+            for (var i = 0; i < array.length; i++) {
+                var img = new Image();
+                img.onload = function() {
+                    var index = list.indexOf(this);
+                    if (index !== -1) {
+                        // remove image from the array once it's loaded
+                        // for memory consumption reasons
+                        list.splice(index, 1);
+                    }
+                }
+                list.push(img);
+                img.src = array[i];
+            }
+        }
+
+        preloadImages(['https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/1.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/2.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/3.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/4.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/5.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/6.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/7.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/8.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/9.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/10.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/11.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/12.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/13.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/14.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/15.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/16.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/17.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/18.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/19.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/20.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/21.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/22.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/23.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/24.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/25.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/26.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/27.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/28.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/29.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/30.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/31.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/32.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/33.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/34.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/35.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/36.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/37.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/38.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/39.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/40.png',
+                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/41.png']);
+
         setTimeout(() => {
 
             /*elem.addEventListener('mouseenter', function(){
@@ -227,9 +290,9 @@
             document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
             get_dragon_sleigh(gif)
         } else {
-            let timeout = (+cookieParser('drsl') + 5040) - new Date().getTime()
+            let timeout = (+cookieParser('drsl') + 50400) - new Date().getTime()
             //console.log(timeout)
-            if (timeout < 0) timeout = 5040
+            if (timeout < 0) timeout = 50400
             setTimeout(() => {
                 document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
                 get_dragon_sleigh(gif)
@@ -287,7 +350,7 @@
 
                 setTimeout(() => {
                     get_dragon_sleigh(gif);
-                }, 5040) //задержка пока его не видно
+                }, 50400) //задержка пока его не видно
             }
 
 

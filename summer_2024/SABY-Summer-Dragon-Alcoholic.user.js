@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          SABY Summer Dragon Alcoholic
 // @namespace     saby-customizer
-// @version       1.0.0
+// @version       1.0.2
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
