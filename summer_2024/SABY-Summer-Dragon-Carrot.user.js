@@ -183,15 +183,18 @@
           if (!elem) {
               elem = document.querySelector('#nav-drawer');
           }
-          let gif  = new FauxGif(elem, frames, 100);
+          if (elem) {
+            let gif  = new FauxGif(elem, frames, 100);
 
-          elem.addEventListener('mouseenter', function(){
-              gif.resume();
-          });
+            elem.addEventListener('mouseenter', function(){
+                gif.resume();
+            });
 
-          elem.addEventListener('mouseleave', function() {
-              gif.pause();
-          });
+            elem.addEventListener('mouseleave', function() {
+                gif.pause();
+            });
+          }
+          
       }, 1000);
       
 
