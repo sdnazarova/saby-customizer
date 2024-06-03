@@ -234,9 +234,8 @@
                 document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
                 get_dragon_sleigh(gif)
             } else {
-                let timeout = (+cookieParser('drsl') + 50400) - new Date().getTime()
-                //console.log(timeout)
-                if (timeout < 0) timeout = 50400
+                let timeout = (+cookieParser('drsl') + 3600000) - new Date().getTime()
+                if (timeout < 0) timeout = 3600000
                 setTimeout(() => {
                     document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
                     get_dragon_sleigh(gif)
@@ -294,7 +293,7 @@
 
                 setTimeout(() => {
                     get_dragon_sleigh(gif);
-                }, 50400) //задержка пока его не видно
+                }, 3600000) //задержка пока его не видно
             }
 
 
