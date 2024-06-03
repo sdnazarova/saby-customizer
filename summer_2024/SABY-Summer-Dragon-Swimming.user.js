@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
-// @include       https://new-edu.sbis.ru/
-// @include       https://fix-new-edu.sbis.ru/
+// @include       https://new-edu.sbis.ru/*
+// @include       https://fix-new-edu.sbis.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -141,9 +141,8 @@
 
 			that.interval = setInterval(function(){
 				that.currentFrame < that.frames.length - 1 ? that.currentFrame++ : that.currentFrame = 0;
-				//that.domElement.style.backgroundImage = "url(" + that.frames[that.currentFrame] + ")";
-                that.domElement.classList.remove(that.frames[that.currentFrame - 1]);
-                that.domElement.classList.add(that.frames[that.currentFrame]);
+        that.domElement.classList.remove(that.frames[that.currentFrame - 1]);
+        that.domElement.classList.add(that.frames[that.currentFrame]);
 			}, this.speed);
 		}
 	}

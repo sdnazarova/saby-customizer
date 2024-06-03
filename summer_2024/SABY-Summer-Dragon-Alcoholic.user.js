@@ -6,8 +6,6 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
-// @include       https://*.sbis.ru/*
-// @include       https://*.saby.ru/*
 // @include       https://new-edu.sbis.ru/
 // @include       https://fix-new-edu.sbis.ru/
 // @run-at        document-end

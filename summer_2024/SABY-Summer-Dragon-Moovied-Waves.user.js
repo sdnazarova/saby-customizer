@@ -8,12 +8,17 @@
 // @include       https://fix-new-edu.sbis.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
-// @noframes
+// @noclassess
 // ==/UserScript==
 /* global unsafeWindow */
 (({ document }) => {
 
     if (location.hostname == "new-edu.sbis.ru") {
+
+        let sleigh = document.createElement('div');
+        sleigh.className = 'dragon-and-swim';
+        document.querySelector('body').insertAdjacentElement('afterbegin', sleigh);
+
         const style = document.createElement('style')
 
         style.type = 'text/css'
@@ -162,7 +167,7 @@
     `;
 
         document.head.append(style);
-        var frames = [
+        var classess = [
             'dragon-and-swim-1',
             'dragon-and-swim-2',
             'dragon-and-swim-3',
@@ -205,105 +210,44 @@
             'dragon-and-swim-40',
             'dragon-and-swim-41'
         ];
-        function preloadImages(array) {
-            if (!preloadImages.list) {
-                preloadImages.list = [];
+        async function preloadImages(classes) {
+            let elem = document.querySelector('.dragon-and-swim')
+            elem.style.display="block";
+            elem.style.right="-500px";
+            for (let index = 0; index < classes.length; index++) {
+                const Class = classes[index];
+                elem.classList.add(Class);
+		        await sleep(index + 1 * 20);
+                elem.classList.remove(Class);
             }
-            var list = preloadImages.list;
-            for (var i = 0; i < array.length; i++) {
-                var img = new Image();
-                img.onload = function() {
-                    var index = list.indexOf(this);
-                    if (index !== -1) {
-                        // remove image from the array once it's loaded
-                        // for memory consumption reasons
-                        list.splice(index, 1);
-                    }
-                }
-                list.push(img);
-                img.src = array[i];
-            }
+            await sleep(classes.length + 1 * 20);
+            elem.style.display = "none";
+            elem.style.right="";
         }
-
-        preloadImages(['https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/1.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/2.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/3.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/4.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/5.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/6.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/7.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/8.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/9.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/10.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/11.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/12.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/13.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/14.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/15.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/16.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/17.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/18.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/19.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/20.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/21.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/22.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/23.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/24.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/25.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/26.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/27.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/28.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/29.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/30.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/31.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/32.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/33.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/34.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/35.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/36.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/37.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/38.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/39.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/40.png',
-                       'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/41.png']);
+        preloadImages(classess);
 
         setTimeout(() => {
-
-            /*elem.addEventListener('mouseenter', function(){
-                gif.resume();
-            });
-
-            elem.addEventListener('mouseleave', function() {
-                gif.pause();
-            });*/
-
-
-        let sleigh = document.createElement('div');
-        sleigh.className = 'dragon-and-swim';
-        document.querySelector('body').insertAdjacentElement('afterbegin', sleigh);
             var elem = document.querySelector('.dragon-and-swim'),
-                gif  = new FauxGif(elem, frames, 70);
-        /*var elem = document.querySelector('.dragon-and-swim'),
-                gif  = new FauxGif(elem, frames, 100);*/
+                gif  = new FauxGif(elem, classess, 70);
 
-        if (document.cookie.indexOf('drsl') < 0) {
-            document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
-            get_dragon_sleigh(gif)
-        } else {
-            let timeout = (+cookieParser('drsl') + 50400) - new Date().getTime()
-            //console.log(timeout)
-            if (timeout < 0) timeout = 50400
-            setTimeout(() => {
+            if (document.cookie.indexOf('drsl') < 0) {
                 document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
                 get_dragon_sleigh(gif)
-            }, timeout);
-        }
-        }, 1000);
+            } else {
+                let timeout = (+cookieParser('drsl') + 50400) - new Date().getTime()
+                //console.log(timeout)
+                if (timeout < 0) timeout = 50400
+                setTimeout(() => {
+                    document.cookie = 'drsl=' + new Date().getTime() + ';path=/;Domain=' + location.hostname + ";";
+                    get_dragon_sleigh(gif)
+                }, timeout);
+            }
+        }, classess.length * 40 + 300);
     }
-    function FauxGif(element, frames, speed) {
+    function FauxGif(element, classess, speed) {
             this.currentFrame = 0,
                 this.domElement   = element,
-                this.frames       = frames || null,
+                this.classess       = classess || null,
                 this.speed        = speed  || 200;
             this.interval;
             this.init();
@@ -323,10 +267,10 @@
             that.currentFrame = 0;
 
 			that.interval = setInterval(function(){
-				that.currentFrame < that.frames.length - 1 ? that.currentFrame++ : that.currentFrame = 0;
-                that.domElement.classList.remove(that.frames[that.currentFrame - 1]);
+				that.currentFrame < that.classess.length - 1 ? that.currentFrame++ : that.currentFrame = 0;
+                that.domElement.classList.remove(that.classess[that.currentFrame - 1]);
                 that.domElement.classList.remove('dragon-and-swim-41');
-                that.domElement.classList.add(that.frames[that.currentFrame]);
+                that.domElement.classList.add(that.classess[that.currentFrame]);
                 if (that.currentFrame == 0) {
                     clearInterval(that.interval);
                 }
@@ -364,10 +308,12 @@
             const element = c[index];
             if (element.indexOf(nameCookie) >= 0) {
                 result = element.split('=')[1]
-                console.log(result)
             }
         }
         return result;
+    }
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
     }
 })(
     // @ts-ignore
