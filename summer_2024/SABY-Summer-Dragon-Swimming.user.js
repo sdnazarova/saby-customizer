@@ -30,41 +30,41 @@
     }
 
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-      /*background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');*/
+      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -3px) !important;
       background-position-x: calc(100% - 0px) !important;
       background-size: 200px;
     }
     #nav-drawer {
-      /*background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');*/
+      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -3px) !important;
       background-position-x: calc(100% - 0px) !important;
       background-size: 220px;
     }
-    .dragon_waves-1 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-1 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png') !important;
     }
-    .dragon_waves-2 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-2 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/2.png') !important;
     }
-    .dragon_waves-3 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-3 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/3.png') !important;
     }
-    .dragon_waves-4 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-4 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/4.png') !important;
     }
-    .dragon_waves-5 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-5 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/5.png') !important;
     }
-    .dragon_waves-6 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-6 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/6.png') !important;
     }
-    .dragon_waves-7 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-7 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/7.png') !important;
     }
-    .dragon_waves-8 {
+    .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-8 {
       background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/8.png') !important;
     }
     
@@ -146,24 +146,24 @@
 			}, this.speed);
 		}
 	}
-
-    setTimeout(() => {
-        var elem = document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar')
-        if (!elem) {
-            elem = document.querySelector('#nav-drawer');
-        }
-        if (elem) {
-          let gif  = new FauxGif(elem, frames, 100);
-
-          elem.addEventListener('mouseenter', function(){
-              gif.resume();
-          });
-
-          elem.addEventListener('mouseleave', function() {
-              gif.pause();
-          });
-        }
-    }, 1000);
+  let usedGif = false;
+  let gif;
+  let gifStart = false;
+  document.addEventListener('mousemove', function(e){
+     if (e.target && e.target.className.includes("NavigationPanels")) {
+         if (!usedGif) {
+             usedGif = true;
+             gif = new FauxGif(document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar'), frames, 100);
+         }
+         if (!gifStart) {
+             gifStart = true;
+             gif.resume();
+         }
+     } else if (gif) {
+         gifStart = false;
+         gif.pause();
+     }
+ })
 
 })(
   // @ts-ignore

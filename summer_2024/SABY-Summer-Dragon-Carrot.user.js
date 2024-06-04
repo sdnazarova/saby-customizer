@@ -30,56 +30,56 @@
         }
 
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-          /*background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');*/
+          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
           background-repeat: no-repeat !important;
           background-position-y: calc(100% - -3px) !important;
           background-position-x: calc(100% - 0px) !important;
           background-size: 200px;
         }
         #nav-drawer {
-          /*background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');*/
+          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
           background-repeat: no-repeat !important;
           background-position-y: calc(100% - -3px) !important;
           background-position-x: calc(100% - 0px) !important;
           background-size: 220px;
         }
-        .picture-changing-1 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-1 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/1.png');
         }
-        .picture-changing-2 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-2 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/2.png');
         }
-        .picture-changing-3 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-3 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/3.png');
         }
-        .picture-changing-4 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-4 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/4.png');
         }
-        .picture-changing-5 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-5 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/5.png');
         }
-        .picture-changing-6 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-6 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/6.png');
         }
-        .picture-changing-7 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-7 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/7.png');
         }
-        .picture-changing-8 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-8 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/8.png');
         }
-        .picture-changing-9 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-9 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/9.png');
         }
-        .picture-changing-10 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-10 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/10.png');
         }
-        .picture-changing-11 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-11 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/11.png');
         }
-        .picture-changing-12 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-12 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/12.png');
         }
-        .picture-changing-13 {
+        .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-13 {
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
         }
     `
@@ -176,25 +176,24 @@
               }, this.speed);
           }
     }
-      setTimeout(() => {
-          var elem = document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar')
-          if (!elem) {
-              elem = document.querySelector('#nav-drawer');
-          }
-          if (elem) {
-            let gif  = new FauxGif(elem, frames, 100);
-
-            elem.addEventListener('mouseenter', function(){
-                gif.resume();
-            });
-
-            elem.addEventListener('mouseleave', function() {
-                gif.pause();
-            });
-          }
-          
-      }, 1000);
-      
+    let usedGif = false;
+    let gif;
+    let gifStart = false;
+    document.addEventListener('mousemove', function(e){
+       if (e.target && e.target.className.includes("NavigationPanels")) {
+           if (!usedGif) {
+               usedGif = true;
+               gif = new FauxGif(document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar'), frames, 100);
+           }
+           if (!gifStart) {
+               gifStart = true;
+               gif.resume();
+           }
+       } else if (gif) {
+           gifStart = false;
+           gif.pause();
+       }
+   })
 
 })(
     // @ts-ignore
