@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         SABY Summer Dragon Swimming
 // @namespace     saby-customizer
-// @version       1.0.2
+// @version       1.0.3
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://*.sbis.ru/*
@@ -150,7 +150,7 @@
   let gif;
   let gifStart = false;
   document.addEventListener('mousemove', function(e){
-     if (e.target && e.target.className.includes("NavigationPanels")) {
+     if (e.target && e.target.classList.contains("NavigationPanels-Accordion__container")) {
          if (!usedGif) {
              usedGif = true;
              gif = new FauxGif(document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar'), frames, 100);
