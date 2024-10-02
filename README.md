@@ -30,18 +30,22 @@
 ![](summer_2024/src-img/Dragon_Moovied_Waves.png)-->
 #### Осенняя тема
 
-1. Дракончик в листопаде статичный. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-leaf-fall-static.user.js)
+1. Дракончик - Учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-teacher-day.user.js)
+
+![](autumn_2024/src-img/dragon-teacher-day.png)
+
+2. Дракончик в листопаде статичный. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-leaf-fall-static.user.js)
 
 ![](autumn_2024/src-img/dragon-leaf_full_static.png)
 
-2. Дракончик грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-mushroomer.user.js)
+3. Дракончик грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-mushroomer.user.js)
 
 ![](autumn_2024/src-img/dragon_mushroomer.png)
 
-3. Дракончик с тыквами. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-pumpkin.user.js)
+4. Дракончик с тыквами. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-pumpkin.user.js)
 
 ![](autumn_2024/src-img/dragon_pumpkin.png)
 
-4. Дракончик в листопаде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Summer-Dragon-leaf-fall.user.js)
+5. Дракончик в листопаде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Summer-Dragon-leaf-fall.user.js)
 
 ![](autumn_2024/src-img/dragon-leaf_full.gif)
