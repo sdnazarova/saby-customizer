@@ -29,7 +29,7 @@
 
 ![](summer_2024/src-img/Dragon_Moovied_Waves.png)-->
 #### Осенняя тема
-1. Дракончик - Учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-helloween.user.js)
+1. Дракончик на тыквенный спас. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-helloween.user.js)
 
 ![](autumn_2024/src-img/dragon_helloween.png)
 
