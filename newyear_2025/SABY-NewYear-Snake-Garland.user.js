@@ -29,7 +29,6 @@
       .NavigationPanels-Accordion__tree {
         background: none !important;
       }
-
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
         background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
         background-repeat: no-repeat !important;
@@ -42,7 +41,7 @@
         background-repeat: no-repeat !important;
         background-position-y: calc(100% - 4px) !important;
         background-position-x: calc(100% - 2px) !important;
-        background-size: 220px;
+        background-size: 206px;
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-1 {
         background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png');

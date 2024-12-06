@@ -29,14 +29,6 @@
           background: none !important;
         }
 
-        #nav-drawer {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_tangerines/1.png');
-          background-repeat: no-repeat !important;
-          background-position-y: calc(100% - 5px) !important;
-          background-position-x: calc(100% - +15px) !important;
-          background-size: 190px;
-        }
-
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar{
           background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_tangerines/1.png');
           background-repeat: no-repeat !important;
