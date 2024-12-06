@@ -45,13 +45,13 @@
         background-size: 220px;
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-1 {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png');
-      }
-      .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-2 {
         background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png');
       }
-      .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-3 {
+      .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-2 {
         background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/3.png');
+      }
+      .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-3 {
+        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png');
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-4 {
         background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');

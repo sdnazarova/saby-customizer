@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY NewYear Snake Mandarin static
+// @name          SABY NewYear Snake Tangerines static
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        ArinaIvanova aa.ivanova3@tensor.ru
