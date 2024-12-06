@@ -14,7 +14,7 @@
 
 ![](newyear_2025/src-img/Snake_Tangerines.gif)
 
-3. Змейка с мандарином статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Mandarin-static.user.js)
+3. Змейка с мандарином статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Tangerines-static.user.js)
 
 ![](newyear_2025/src-img/Snake_Mandarin_static.png)
 
