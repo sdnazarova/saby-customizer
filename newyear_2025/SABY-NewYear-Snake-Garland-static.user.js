@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          SABY NewYear Snake Garland static
 // @namespace     saby-customizer
-// @version       1.0.1
+// @version       1.0.2
 // @author        ArinaIvanova aa.ivanova3@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
@@ -26,6 +26,13 @@
     }
     .NavigationPanels-Accordion__tree {
       background: none !important;
+    }
+    #nav-drawer {
+      background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/garland.png')!important;
+      background-repeat: no-repeat !important;
+      background-position-y: calc(100% - 8px) !important;
+      background-position-x: calc(100% - 2px) !important;
+      background-size: 206px;
     }
 
     .NavigationPanels-Sidebar {

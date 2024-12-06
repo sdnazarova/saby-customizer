@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name          SABY NewYear Snake Tangerines
 // @namespace     saby-customizer
-// @version       1.0.1
+// @version       1.0.2
 // @author        ArinaIvanova aa.ivanova3@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
@@ -27,6 +27,14 @@
         }
         .NavigationPanels-Accordion__tree {
           background: none !important;
+        }
+
+        #nav-drawer {
+          background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_tangerines/1.png');
+          background-repeat: no-repeat !important;
+          background-position-y: calc(100% - 5px) !important;
+          background-position-x: calc(100% - +15px) !important;
+          background-size: 190px;
         }
 
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar{
