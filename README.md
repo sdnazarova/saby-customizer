@@ -5,7 +5,20 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Новогодняя тема
+#### Весенняя тема
+1. Змейка с сердечком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Heart-static.user.js)
+
+![](spring_2025/src-img/Snake_Heart.png)
+
+2. Змейка празднует Пасху. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Eggs-static.user.js)
+
+![](spring_2025/src-img/Snake_Eggs.png)
+
+3. Змейка с цветочками. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Flowers-static.user.js)
+
+![](spring_2025/src-img/Snake_Flowers.png)
+
+<!-- #### Новогодняя тема
 1. Змейка в гирлянде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Garland.user.js)
 
 ![](newyear_2025/src-img/Snake_Garland.gif)
@@ -24,7 +37,7 @@
 
 5. Змейка с вином статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Wine-static.user.js)
 
-![](newyear_2025/src-img/Snake_Wine_static.png)
+![](newyear_2025/src-img/Snake_Wine_static.png) -->
 
 
 <!--#### Осенняя тема
