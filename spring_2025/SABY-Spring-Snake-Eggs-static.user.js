@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY Sring Snake Eggs
+// @name          SABY Spring Snake Eggs
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        Nazarova Svetlana sd.nazarova@tensor.ru

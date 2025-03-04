@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY Sring Snake Hearts
+// @name          SABY Spring Snake Hearts
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        Nazarova Svetlana sd.nazarova@tensor.ru
