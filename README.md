@@ -20,7 +20,7 @@
 
 4. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Umbrella-static.user.js)
 
-![](summer_2025/src-img/Snake_Umbrella)
+![](summer_2025/src-img/Snake_Umbrella.png)
 
 
 5. Змейка жарит шашлыки. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Fire-static.user.js)
