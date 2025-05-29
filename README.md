@@ -5,7 +5,30 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Весенняя тема
+#### Летняя тема
+1. Змейка в цветах. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Flower-static.user.js)
+
+![](summer_2025/src-img/Snake_Flower.png)
+
+2. Змейка с сердечком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Heart-static.user.js)
+
+![](summer_2025/src-img/Snake_Heart.png)
+
+3. Змейка с лейкой. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Boiler-static.user.js)
+
+![](summer_2025/src-img/Snake_Boiler.png)
+
+4. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Umbrella-static.user.js)
+
+![](summer_2025/src-img/Umbrella.png)
+
+
+5. Змейка жарит шашлыки. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Fire-static.user.js)
+
+![](summer_2025/src-img/Fire.png)
+
+
+<!-- #### Весенняя тема
 1. Змейка с сердечком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Heart-static.user.js)
 
 ![](spring_2025/src-img/Snake_Heart.png)
@@ -16,7 +39,7 @@
 
 3. Змейка с цветочками. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Flowers-static.user.js)
 
-![](spring_2025/src-img/Snake_Flowers.png)
+![](spring_2025/src-img/Snake_Flowers.png) -->
 
 <!-- #### Новогодняя тема
 1. Змейка в гирлянде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Garland.user.js)
