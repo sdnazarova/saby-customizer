@@ -15,7 +15,7 @@
 
 ![](autumn_2025/src-img/Snake-Umbrella.png)
 
-31. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
+1. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
 
 ![](autumn_2025/src-img/Snake-Teacher.png)
 
