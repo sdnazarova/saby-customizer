@@ -11,18 +11,18 @@
 
 ![](autumn_2025/src-img/Snake-Witch.png)
 
-1. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Umbrella-static.user.js)
+2. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Umbrella-static.user.js)
 
 ![](autumn_2025/src-img/Snake-Umbrella.png)
 
-1. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
+31. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
 
 ![](autumn_2025/src-img/Snake-Teacher.png)
 
-1. Змейка - грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Mushrooms-static.user.js)
+4. Змейка - грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Mushrooms-static.user.js)
 
 ![](autumn_2025/src-img/Snake-Mushrooms.png)
 
-1. Змейка - пекарь. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Bakery-static.user.js)
+5. Змейка - пекарь. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Bakery-static.user.js)
 
 ![](autumn_2025/src-img/Snake-Bakery.png)
