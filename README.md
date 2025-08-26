@@ -5,109 +5,24 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Летняя тема
-1. Змейка в цветах. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Flower-static.user.js)
+#### Осенняя тема
 
-![](summer_2025/src-img/Snake_Flowers.png)
+1. Змейка - ведьма. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Witch-static.user.js)
 
-2. Змейка с сердечком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Heart-static.user.js)
+![](autumn_2025/src-img/Snake-Witch.png)
 
-![](summer_2025/src-img/Snake_Heart.png)
+1. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Umbrella-static.user.js)
 
-3. Змейка с лейкой. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Boiler-static.user.js)
+![](autumn_2025/src-img/Snake-Umbrella.png)
 
-![](summer_2025/src-img/Snake_Boiler.png)
+1. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
 
-4. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Umbrella-static.user.js)
+![](autumn_2025/src-img/Snake-Teacher.png)
 
-![](summer_2025/src-img/Snake_Umbrella.png)
+1. Змейка - грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Mushrooms-static.user.js)
 
+![](autumn_2025/src-img/Snake-Mushrooms.png)
 
-5. Змейка жарит шашлыки. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2025/SABY-Spring-Snake-Fire-static.user.js)
+1. Змейка - пекарь. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Bakery-static.user.js)
 
-![](summer_2025/src-img/Snake_Fire.png)
-
-
-<!-- #### Весенняя тема
-1. Змейка с сердечком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Heart-static.user.js)
-
-![](spring_2025/src-img/Snake_Heart.png)
-
-2. Змейка празднует Пасху. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Eggs-static.user.js)
-
-![](spring_2025/src-img/Snake_Eggs.png)
-
-3. Змейка с цветочками. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2025/SABY-Spring-Snake-Flowers-static.user.js)
-
-![](spring_2025/src-img/Snake_Flowers.png) -->
-
-<!-- #### Новогодняя тема
-1. Змейка в гирлянде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Garland.user.js)
-
-![](newyear_2025/src-img/Snake_Garland.gif)
-
-2. Змейка в мандариновом водопаде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Tangerines.user.js)
-
-![](newyear_2025/src-img/Snake_Tangerines.gif)
-
-3. Змейка с мандарином статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Tangerines-static.user.js)
-
-![](newyear_2025/src-img/Snake_Mandarin_static.png)
-
-4. Змейка в гирлянде статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Garland-static.user.js)
-
-![](newyear_2025/src-img/Snake_Garland_static.png)
-
-5. Змейка с вином статичная. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/newyear_2025/SABY-NewYear-Snake-Wine-static.user.js)
-
-![](newyear_2025/src-img/Snake_Wine_static.png) -->
-
-
-<!--#### Осенняя тема
-1. Дракончик на тыквенный спас. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-helloween.user.js)
-
-![](autumn_2024/src-img/dragon_helloween.png)
-
-2. Дракончик - Учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-teacher-day.user.js)
-
-![](autumn_2024/src-img/dragon-teacher-day.png)
-
-3. Дракончик в листопаде статичный. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-leaf-fall-static.user.js)
-
-![](autumn_2024/src-img/dragon-leaf_full_static.png)
-
-4. Дракончик грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-mushroomer.user.js)
-
-![](autumn_2024/src-img/dragon_mushroomer.png)
-
-5. Дракончик с тыквами. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Autumn-Dragon-pumpkin.user.js)
-
-![](autumn_2024/src-img/dragon_pumpkin.png)
-
-6. Дракончик в листопаде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2024/SABY-Summer-Dragon-leaf-fall.user.js)
-
-![](autumn_2024/src-img/dragon-leaf_full.gif)-->
-
-<!-- #### Весенняя тема
-
-1.  Дракончик в меню. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2024/SABY-Spring-Dragon.user.js)
-
-![](spring_2024/src-img//Dragon_Menu.png)
-
-2.  Выезжающий дракон. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/spring_2024/SABY-Spring-Dragon-Moovied.user.js)
-
-![](spring_2024/src-img/Dragon_Moovied.png) -->
-
-<!--#### Летняя тема
-
-1. Дракончик плавающий. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Swimming.user.js)
-
-![](summer_2024/src-img/Dragon_Swimming.png)
-
-2. Дракончик садовник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Carrot.user.js)
-
-![](summer_2024/src-img/Dragon_Carrot.png)
-
-3. Дракончик в волнах на учебный портал. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2024/SABY-Summer-Dragon-Moovied-Waves.user.js)
-
-![](summer_2024/src-img/Dragon_Moovied_Waves.png)-->
+![](autumn_2025/src-img/Snake-Bakery.png)
