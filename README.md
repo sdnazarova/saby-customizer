@@ -5,24 +5,24 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Осенняя тема
+#### Зимняя тема
 
-1. Змейка - ведьма. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Witch-static.user.js)
+1. Иннокентий мечтательный. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Fly-static.user.js)
 
-![](autumn_2025/src-img/Snake-Witch.png)
+![](winter_2025/src-img/Horse-Fly.png)
 
-2. Змейка с зонтиком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Umbrella-static.user.js)
+2. Иннокентий в гирлянде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Garland-static.user.js)
 
-![](autumn_2025/src-img/Snake-Umbrella.png)
+![](winter_2025/src-img/Horse-Garland.png)
 
-1. Змейка - учитель. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Teacher-static.user.js)
+1. Иннокентий с мандаринами (большой). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-Big-static.user.js)
 
-![](autumn_2025/src-img/Snake-Teacher.png)
+![](winter_2025/src-img/Horse-Tangerines-Big.png)
 
-4. Змейка - грибник. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Mushrooms-static.user.js)
+4. Иннокентий с мандаринами (маленький). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-static.user.js)
 
-![](autumn_2025/src-img/Snake-Mushrooms.png)
+![](winter_2025/src-img/Horse-Tangerines.png)
 
-5. Змейка - пекарь. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2025/SABY-Autumn-Snake-Bakery-static.user.js)
+5. Иннокентий с вишевым соком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Wine-static.user.js)
 
-![](autumn_2025/src-img/Snake-Bakery.png)
+![](winter_2025/src-img/Horse-Wine.png)
