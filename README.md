@@ -15,7 +15,7 @@
 
 ![](winter_2025/src-img/Horse-Garland.png)
 
-1. Иннокентий с мандаринами (большой). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-Big-static.user.js)
+3. Иннокентий с мандаринами (большой). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-Big-static.user.js)
 
 ![](winter_2025/src-img/Horse-Tangerines-Big.png)
 
