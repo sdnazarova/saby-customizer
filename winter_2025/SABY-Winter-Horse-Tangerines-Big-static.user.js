@@ -1,5 +1,5 @@
   // ==UserScript==
-// @name          SABY winter Horse Tangerines
+// @name          SABY winter Horse Tangerines Big
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        Nazarova Svetlana sd.nazarova@tensor.ru
