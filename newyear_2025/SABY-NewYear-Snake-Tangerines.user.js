@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
-// @include       https://new-edu.sbis.ru/
-// @include       https://fix-new-edu.sbis.ru/
+// @include       https://new-edu.saby.ru/
+// @include       https://fix-new-edu.saby.ru/
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -30,7 +30,7 @@
         }
 
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar{
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_tangerines/1.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_tangerines/1.png');
           background-repeat: no-repeat !important;
           background-position-y: calc(100% - 5px) !important;
           background-position-x: calc(100% - +15px) !important;
@@ -43,9 +43,9 @@
       if (e.target && e.target.classList.contains("NavigationPanels-Accordion__container")) {
 
         let pict=document.querySelector('.sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar')
-            pict.style.backgroundImage="url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/tangerines.gif')";
+            pict.style.backgroundImage="url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/tangerines.gif')";
             setTimeout (function(){
-                pict.style.backgroundImage="url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_tangerines/9.png";
+                pict.style.backgroundImage="url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_tangerines/9.png";
                 pict.style.backgroundSize="190px"
             },3000);
       }})

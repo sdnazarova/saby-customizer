@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
-// @include       https://new-edu.sbis.ru/
-// @include       https://fix-new-edu.sbis.ru/
+// @include       https://new-edu.saby.ru/
+// @include       https://fix-new-edu.saby.ru/
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -29,14 +29,14 @@
     }
 
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/alcoholic/alcoholic.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/alcoholic/alcoholic.png') !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -3px) !important;
       background-position-x: calc(100% - -14px) !important;
       background-size: 220px;
     }
     #nav-drawer {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/alcoholic/alcoholic.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/alcoholic/alcoholic.png') !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -1px) !important;
       background-position-x: calc(100% - -14px) !important;

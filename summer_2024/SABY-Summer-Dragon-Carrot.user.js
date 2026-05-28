@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://*.sbis.ru/*
 // @include       https://*.saby.ru/*
-// @include       https://new-edu.sbis.ru/*
-// @include       https://fix-new-edu.sbis.ru/*
+// @include       https://new-edu.saby.ru/*
+// @include       https://fix-new-edu.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -30,57 +30,57 @@
         }
 
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
           background-repeat: no-repeat !important;
           background-position-y: calc(100% - -3px) !important;
           background-position-x: calc(100% - 0px) !important;
           background-size: 200px;
         }
         #nav-drawer {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
           background-repeat: no-repeat !important;
           background-position-y: calc(100% - -3px) !important;
           background-position-x: calc(100% - 0px) !important;
           background-size: 220px;
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-1 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/1.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/1.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-2 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/2.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/2.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-3 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/3.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/3.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-4 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/4.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/4.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-5 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/5.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/5.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-6 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/6.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/6.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-7 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/7.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/7.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-8 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/8.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/8.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-9 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/9.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/9.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-10 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/10.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/10.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-11 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/11.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/11.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-12 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/12.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/12.png');
         }
         .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-13 {
-          background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
+          background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/13.png');
         }
     `
 
@@ -134,19 +134,19 @@
           }
       }
 
-      preloadImages(['https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/1.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/2.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/3.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/4.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/5.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/6.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/7.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/8.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/9.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/10.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/11.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/12.png',
-                    'https://new-edu.sbis.ru/tensor/new_year/summer_themes/carrot_grow/13.png'
+      preloadImages(['https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/1.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/2.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/3.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/4.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/5.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/6.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/7.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/8.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/9.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/10.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/11.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/12.png',
+                    'https://new-edu.saby.ru/tensor/new_year/summer_themes/carrot_grow/13.png'
                     ]);
 
       function FauxGif(element, frames, speed) {

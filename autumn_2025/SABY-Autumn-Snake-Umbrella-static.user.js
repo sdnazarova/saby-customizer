@@ -6,9 +6,9 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
-// @include       https://new-edu.sbis.ru/*
-// @include       https://fix-new-edu.sbis.ru/*
-// @include       https://dev-new-edu.sbis.ru/*
+// @include       https://new-edu.saby.ru/*
+// @include       https://fix-new-edu.saby.ru/*
+// @include       https://dev-new-edu.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -30,14 +30,14 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url(https://new-edu.sbis.ru/tensor/new_year/2025/autumn_theme/Snake-Umbrella.png) !important;
+      background-image: url(https://new-edu.saby.ru/tensor/new_year/2025/autumn_theme/Snake-Umbrella.png) !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% + -5px) !important;
       background-position-x: calc(100%) !important;
       background-size: contain;
     }
     #nav-drawer {
-       background-image: url(https://new-edu.sbis.ru/tensor/new_year/2025/autumn_theme/Snake-Umbrella.png) !important;
+       background-image: url(https://new-edu.saby.ru/tensor/new_year/2025/autumn_theme/Snake-Umbrella.png) !important;
        background-repeat: no-repeat !important;
        background-position-y: calc(100% + -5px) !important;
        background-position-x: calc(100%) !important;

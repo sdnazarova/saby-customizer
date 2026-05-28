@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://*.sbis.ru/*
 // @include       https://*.saby.ru/*
-// @include       https://new-edu.sbis.ru/*
-// @include       https://fix-new-edu.sbis.ru/*
+// @include       https://new-edu.saby.ru/*
+// @include       https://fix-new-edu.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -30,30 +30,30 @@
         background: none !important;
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
         background-repeat: no-repeat !important;
         background-position-y: calc(100% - 4px) !important;
         background-position-x: calc(100% - 2px) !important;
         background-size: 206px;
       }
       #nav-drawer {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
         background-repeat: no-repeat !important;
         background-position-y: calc(100% - 4px) !important;
         background-position-x: calc(100% - 2px) !important;
         background-size: 206px;
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-1 {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png');
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-2 {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/3.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/3.png');
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-3 {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png');
       }
       .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.picture-changing-4 {
-        background-image: url('https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
+        background-image: url('https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png');
       }
   `
 
@@ -83,10 +83,10 @@
             img.src = array[i];
         }
     }
-    preloadImages(['https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png',
-                  'https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png',
-                  'https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/3.png',
-                  'https://new-edu.sbis.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png'
+    preloadImages(['https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/1.png',
+                  'https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/2.png',
+                  'https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/3.png',
+                  'https://new-edu.saby.ru/tensor/new_year/newyear2025_themes/snake_garland/4.png'
                   ]);
     function FauxGif(element, frames, speed) {
         this.currentFrame = 0,

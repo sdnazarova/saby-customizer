@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://*.sbis.ru/*
 // @include       https://*.saby.ru/*
-// @include       https://new-edu.sbis.ru/*
-// @include       https://fix-new-edu.sbis.ru/*
+// @include       https://new-edu.saby.ru/*
+// @include       https://fix-new-edu.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -30,42 +30,42 @@
     }
 
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -3px) !important;
       background-position-x: calc(100% - 0px) !important;
       background-size: 200px;
     }
     #nav-drawer {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/1.png');
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -3px) !important;
       background-position-x: calc(100% - 0px) !important;
       background-size: 220px;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-1 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/1.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-2 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/2.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/2.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-3 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/3.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/3.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-4 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/4.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/4.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-5 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/5.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/5.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-6 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/6.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/6.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-7 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/7.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/7.png') !important;
     }
     .sabyPage-MainLayout__sidebar .NavigationPanels-Sidebar.dragon_waves-8 {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/8.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/8.png') !important;
     }
     
   `
@@ -118,14 +118,14 @@
         }
     }
 
-    preloadImages(['https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/1.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/2.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/3.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/4.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/5.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/6.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/7.png',
-                   'https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_waves/8.png']);
+    preloadImages(['https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/1.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/2.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/3.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/4.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/5.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/6.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/7.png',
+                   'https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_waves/8.png']);
 
     FauxGif.prototype = {
 		init: function() {

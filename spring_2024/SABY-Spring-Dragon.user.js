@@ -29,7 +29,7 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/spring_themes/DragonFlowers.png') !important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/spring_themes/DragonFlowers.png') !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - -30px) !important;
       background-position-x: calc(100% - 6px) !important;

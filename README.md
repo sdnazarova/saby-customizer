@@ -5,20 +5,20 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Весенняя тема
+#### Летняя тема
 
-1. Иннокентий дружелюбный. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Friendly-static.user.js)
+1. Иннокентий жарит шашлык. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2026/SABY-Spring-Horse-Barbecue-static.user.js)
 
-<img src="spring_2026/src-img/Innokentiy_friendly.png" alt="Innokentiy_friendly" width="250">
+<img src="summer_2026/src-img/Horse-Barbecue.png" alt="Horse-Barbecue" width="250">
 
-2. Иннокентий радостный. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Happy-static.user.js)
+2. Иннокентий в палаточке. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2026/SABY-Spring-Horse-Tent-static.user.js)
 
-<img src="spring_2026/src-img/Innokentiy_happy.png" alt="Innokentiy_happy" width="250">
+<img src="summer_2026/src-img/Horse-Tent.png" alt="Horse-Tent" width="250">
 
-3. Иннокентий милашка. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Lovely-static.user.js)
+3. Иннокентий на кемпинге. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2026/SABY-Spring-Horse-Camping-static.user.js)
 
-<img src="spring_2026/src-img/Innokentiy_lovely.png" alt="Innokentiy_lovely" width="250">
+<img src="summer_2026/src-img/Horse-Camping.png" alt="Horse-Camping" width="250">
 
-4. Иннокентий в шапке. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Snowy-static.user.js)
+4. Иннокентий на пляже. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/summer_2026/SABY-Spring-Horse-Plage-static.user.js)
 
-<img src="spring_2026/src-img/Innokentiy_snowy.png" alt="Innokentiy_snowy" width="250">
+<img src="summer_2026/src-img/Horse-Plage.png" alt="Horse-Plage" width="250">

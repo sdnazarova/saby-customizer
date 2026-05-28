@@ -4,8 +4,8 @@
 // @version       1.0.2
 // @author        SvetlanaNazarova sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
-// @include       https://new-edu.sbis.ru/*
-// @include       https://fix-new-edu.sbis.ru/*
+// @include       https://new-edu.saby.ru/*
+// @include       https://fix-new-edu.saby.ru/*
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noclassess
@@ -13,7 +13,7 @@
 /* global unsafeWindow */
 (({ document }) => {
 
-    if (location.hostname == "new-edu.sbis.ru") {
+    if (location.hostname == "new-edu.saby.ru") {
 
         let sleigh = document.createElement('div');
         sleigh.className = 'dragon-and-swim';
@@ -25,7 +25,7 @@
         style.innerHTML = `
     .dragon-and-swim {
         position: fixed;
-        /*background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/dragon_swims.gif);*/
+        /*background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/dragon_swims.gif);*/
         width: 355px;
         height: 226px;
         background-repeat: no-repeat !important;
@@ -42,127 +42,127 @@
         /*-webkit-transition-timing-function: linear;*/
     }
     .dragon-and-swim-1 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/1.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/1.png);
     }
     .dragon-and-swim-2 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/2.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/2.png);
     }
     .dragon-and-swim-3 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/3.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/3.png);
     }
     .dragon-and-swim-4 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/4.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/4.png);
     }
     .dragon-and-swim-5 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/5.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/5.png);
     }
     .dragon-and-swim-6 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/6.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/6.png);
     }
     .dragon-and-swim-7 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/7.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/7.png);
     }
     .dragon-and-swim-8 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/8.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/8.png);
     }
     .dragon-and-swim-9 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/9.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/9.png);
     }
     .dragon-and-swim-10 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/10.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/10.png);
     }
     .dragon-and-swim-11 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/11.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/11.png);
     }
     .dragon-and-swim-12 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/12.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/12.png);
     }
     .dragon-and-swim-13 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/13.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/13.png);
     }
     .dragon-and-swim-14 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/14.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/14.png);
     }
     .dragon-and-swim-15 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/15.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/15.png);
     }
     .dragon-and-swim-16 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/16.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/16.png);
     }
     .dragon-and-swim-17 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/17.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/17.png);
     }
     .dragon-and-swim-18 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/18.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/18.png);
     }
     .dragon-and-swim-19 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/19.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/19.png);
     }
     .dragon-and-swim-20 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/20.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/20.png);
     }
     .dragon-and-swim-21 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/21.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/21.png);
     }
     .dragon-and-swim-22 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/22.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/22.png);
     }
     .dragon-and-swim-23 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/23.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/23.png);
     }
     .dragon-and-swim-24 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/24.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/24.png);
     }
     .dragon-and-swim-25 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/25.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/25.png);
     }
     .dragon-and-swim-26 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/26.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/26.png);
     }
     .dragon-and-swim-27 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/27.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/27.png);
     }
     .dragon-and-swim-28 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/28.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/28.png);
     }
     .dragon-and-swim-29 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/29.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/29.png);
     }
     .dragon-and-swim-30 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/30.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/30.png);
     }
     .dragon-and-swim-31 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/31.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/31.png);
     }
     .dragon-and-swim-32 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/32.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/32.png);
     }
     .dragon-and-swim-33 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/33.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/33.png);
     }
     .dragon-and-swim-34 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/34.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/34.png);
     }
     .dragon-and-swim-35 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/35.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/35.png);
     }
     .dragon-and-swim-36 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/36.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/36.png);
     }
     .dragon-and-swim-37 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/37.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/37.png);
     }
     .dragon-and-swim-38 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/38.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/38.png);
     }
     .dragon-and-swim-39 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/39.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/39.png);
     }
     .dragon-and-swim-40 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/40.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/40.png);
     }
     .dragon-and-swim-41 {
-        background: url(https://new-edu.sbis.ru/tensor/new_year/summer_themes/dragon_swims/41.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/summer_themes/dragon_swims/41.png);
     }
     `;
 

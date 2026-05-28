@@ -20,7 +20,7 @@
         style.innerHTML = `
     .dragon-and-sleigh {
         position: fixed;
-        background: url(https://new-edu.sbis.ru/tensor/new_year/spring_themes/transpontDragon.png);
+        background: url(https://new-edu.saby.ru/tensor/new_year/spring_themes/transpontDragon.png);
         width: 300px;
         height: 288px;
         background-repeat: no-repeat;

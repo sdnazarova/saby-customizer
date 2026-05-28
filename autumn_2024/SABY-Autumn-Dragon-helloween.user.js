@@ -6,8 +6,8 @@
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://*.sbis.ru/*
 // @include       https://*.saby.ru/*
-// @include       https://new-edu.sbis.ru/
-// @include       https://fix-new-edu.sbis.ru/
+// @include       https://new-edu.saby.ru/
+// @include       https://fix-new-edu.saby.ru/
 // @run-at        document-end
 // @grant         unsafeWindow
 // @noframes
@@ -29,7 +29,7 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url('https://new-edu.sbis.ru/tensor/new_year/autumn_theme/dragon_helloween.png')!important;
+      background-image: url('https://new-edu.saby.ru/tensor/new_year/autumn_theme/dragon_helloween.png')!important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% - 3px) !important;
       background-position-x: calc(100% - 7px) !important;
