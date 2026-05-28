@@ -5,24 +5,20 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Зимняя тема
+#### Весенняя тема
 
-1. Иннокентий мечтательный. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Fly-static.user.js)
+1. Иннокентий дружелюбный. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Friendly-static.user.js)
 
-![](winter_2025/src-img/Horse-Fly.png)
+<img src="spring_2026/src-img/Innokentiy_friendly.png" alt="Innokentiy_friendly" width="250">
 
-2. Иннокентий в гирлянде. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Garland-static.user.js)
+2. Иннокентий радостный. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Happy-static.user.js)
 
-![](winter_2025/src-img/Horse-Garland.png)
+<img src="spring_2026/src-img/Innokentiy_happy.png" alt="Innokentiy_happy" width="250">
 
-3. Иннокентий с мандаринами (большой). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-Big-static.user.js)
+3. Иннокентий милашка. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Lovely-static.user.js)
 
-![](winter_2025/src-img/Horse-Tangerines-Big.png)
+<img src="spring_2026/src-img/Innokentiy_lovely.png" alt="Innokentiy_lovely" width="250">
 
-4. Иннокентий с мандаринами (маленький). [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Tangerines-static.user.js)
+4. Иннокентий в шапке. [установить](https://github.com/alonmichu/saby-customizer/raw/main/spring_2026/SABY-Spring-Innokentiy-Snowy-static.user.js)
 
-![](winter_2025/src-img/Horse-Tangerines.png)
-
-5. Иннокентий с вишевым соком. [установить](https://github.com/sdnazarova/saby-customizer/raw/main/winter_2025/SABY-Winter-Horse-Wine-static.user.js)
-
-![](winter_2025/src-img/Horse-Wine.png)
+<img src="spring_2026/src-img/Innokentiy_snowy.png" alt="Innokentiy_snowy" width="250">
