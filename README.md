@@ -5,7 +5,7 @@
 
 ![](spring_2024/src-img/tampermonkey.png)
 
-#### Осенняя тема
+#### Вдохновение
 
 «Лучший день — сегодня» [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-lotus-button.user.js)
 
