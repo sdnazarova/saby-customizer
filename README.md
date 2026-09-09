@@ -7,6 +7,6 @@
 
 #### Осенняя тема
 
-"Лучший день — сегодня" [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-lotus-button.user.js)
+«Лучший день — сегодня» [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-lotus-button.user.js)
 
 <img src="autumn_2026/src-img/lotus_button.svg" alt="Lotus" width="250">
