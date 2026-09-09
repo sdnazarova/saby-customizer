@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY Autumn Calendar
+// @name          SABY Autumn The best day is today
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        Michurina Aliona am.michurina@tensor.ru
@@ -60,21 +60,23 @@
   `
 
   document.head.append(style);
-  let div = document.createElement('div');
-  const link = document.createElement('a');
-
-  div.className = 'lotus-button-form';
-  link.className = 'lotus-button-link';
-  link.href = 'https://new-edu.saby.ru/calendar_2026/';
-  link.target = '_blank';
-  link.rel = 'noopener noreferrer';
   const element = document.querySelector('.NavigationPanels-Accordion__container');
-  const width = element.getBoundingClientRect().width;
+  if (element) {
+    let div = document.createElement('div');
+    const link = document.createElement('a');
 
-  div.style.width = `${width}px`;
-  div.append(link);
+    div.className = 'lotus-button-form';
+    link.className = 'lotus-button-link';
+    link.href = 'https://new-edu.saby.ru/calendar_2026/';
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    const width = element.getBoundingClientRect().width;
 
-  document.body.append(div);
+    div.style.width = `${width}px`;
+    div.append(link);
+
+    document.body.append(div);
+  }
 })(
   // @ts-ignore
   unsafeWindow
