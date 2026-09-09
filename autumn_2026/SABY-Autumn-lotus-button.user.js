@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name          SABY Autumn The best day is today
 // @namespace     saby-customizer
-// @version       1.0.1
-// @author        Michurina Aliona am.michurina@tensor.ru
+// @version       1.0.2
+// @author        Nazarova Svetlana sd.nazarova@tensor.ru
 // @description   Персональная настройка saby приложений для решения повседневных задач, и не только...
 // @include       https://online.sbis.ru/*
 // @include       https://online.saby.ru/*
@@ -64,6 +64,10 @@
   if (element) {
     let div = document.createElement('div');
     const link = document.createElement('a');
+    const sidebarZIndex = parseInt(getComputedStyle(element).zIndex, 10) || 0;
+
+    link.style.zIndex = sidebarZIndex + 1;
+    div.style.zIndex = sidebarZIndex + 1;
 
     div.className = 'lotus-button-form';
     link.className = 'lotus-button-link';
