@@ -28,13 +28,13 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_tea.png) !important;
+      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_leafs.png) !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% + +35px) !important;
       background-position-x: calc(100% + 10px) !important;
     }
     #nav-drawer {
-       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_tea.png) !important;
+       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_leafs.png) !important;
        background-repeat: no-repeat !important;
        background-position-y: calc(100% + 35px) !important;
        background-position-x: calc(100% + 10px) !important;
