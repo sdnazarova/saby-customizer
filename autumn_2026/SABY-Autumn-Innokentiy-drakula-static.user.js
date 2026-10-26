@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name          SABY Innokentiy Halloween
+// @name          SABY Innokentiy Drakula
 // @namespace     saby-customizer
 // @version       1.0.1
 // @author        Nazarova Svetlana sd.nazarova@tensor.ru
@@ -34,14 +34,14 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_halloween.png) !important;
+      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_drakula.svg) !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% + -10px) !important;
       background-position-x: calc(100%) !important;
       background-size: 200px;
     }
     #nav-drawer {
-       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_halloween.png) !important;
+       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_drakula.svg) !important;
        background-repeat: no-repeat !important;
        background-position-y: calc(100% + -10px) !important;
        background-position-x: calc(100%) !important;
