@@ -18,9 +18,9 @@
 
 <img src="autumn_2026/src-img/Innokentiy_halloween.png" alt="Halloween" width="250">
 
-Иннокентий Дракула [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-Innokentiy-drakula-static.user.js)
+Иннокентий Дракула [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-Innokentiy-dracula-static.user.js)
 
-<img src="autumn_2026/src-img/Innokentiy_drakula.svg" alt="Drakula" width="250">
+<img src="autumn_2026/src-img/Innokentiy_dracula.svg" alt="Dracula" width="250">
 
 Иннокентий в листьях [установить](https://github.com/sdnazarova/saby-customizer/raw/main/autumn_2026/SABY-Autumn-Innokentiy-leafs-static.user.js)
 

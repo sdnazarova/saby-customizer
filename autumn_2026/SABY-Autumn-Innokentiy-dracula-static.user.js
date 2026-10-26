@@ -34,14 +34,14 @@
     }
 
     .NavigationPanels-Sidebar {
-      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_drakula.svg) !important;
+      background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_dracula.svg) !important;
       background-repeat: no-repeat !important;
       background-position-y: calc(100% + -10px) !important;
       background-position-x: calc(100%) !important;
       background-size: 200px;
     }
     #nav-drawer {
-       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_drakula.svg) !important;
+       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_dracula.svg) !important;
        background-repeat: no-repeat !important;
        background-position-y: calc(100% + -10px) !important;
        background-position-x: calc(100%) !important;
