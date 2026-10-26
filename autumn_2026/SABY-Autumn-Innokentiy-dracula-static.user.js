@@ -36,15 +36,15 @@
     .NavigationPanels-Sidebar {
       background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_dracula.svg) !important;
       background-repeat: no-repeat !important;
-      background-position-y: calc(100% + -10px) !important;
-      background-position-x: calc(100%) !important;
+      background-position-y: calc(100% + -15px) !important;
+      background-position-x: calc(100% + -12px) !important;
       background-size: 200px;
     }
     #nav-drawer {
        background-image: url(https://new-edu.saby.ru/tensor/new_year/2026/autumn_theme/Innokentiy_dracula.svg) !important;
        background-repeat: no-repeat !important;
-       background-position-y: calc(100% + -10px) !important;
-       background-position-x: calc(100%) !important;
+       background-position-y: calc(100% + -15px) !important;
+       background-position-x: calc(100% + -12px) !important;
        background-size: 200px;
       }
   `
